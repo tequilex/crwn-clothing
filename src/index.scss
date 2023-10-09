@@ -1,9 +1,21 @@
 body {
   margin: 0;
   padding: 20px 40px;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-family: 'IBM Plex Mono', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;              
+}
+body::-webkit-scrollbar-track {
+  background: white;       
+}
+body::-webkit-scrollbar-thumb {
+  background-color: black;   
+  border-radius: 20px;      
+
 }
 
 code {

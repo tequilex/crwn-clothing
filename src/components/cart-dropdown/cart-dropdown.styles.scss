@@ -10,6 +10,8 @@
   top: 90px;
   right: 40px;
   z-index: 5;
+  align-items: center;
+  justify-content: space-between;
 
   .empty-message {
     font-size: 18px;
@@ -20,10 +22,23 @@
     height: 240px;
     display: flex;
     flex-direction: column;
-    overflow: scroll;
+    overflow-y: scroll;
+    padding-right: 6px;
   }
 
   button {
     margin-top: auto;
   }
+
+  .cart-items::-webkit-scrollbar {
+    width: 4px;              
+  }
+  .cart-items::-webkit-scrollbar-track {
+    background: white;       
+  }
+  .cart-items::-webkit-scrollbar-thumb {
+    background-color: black;    
+    border-radius: 20px;       
+  }
 }
+
