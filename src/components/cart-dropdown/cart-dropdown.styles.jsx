@@ -20,6 +20,8 @@ export const CartDropdownContainer = styled.div`
   z-index: 5;
   align-items: center;
   justify-content: space-between;
+  border-radius: 5px;
+  background-color: grey;
 
   ::-webkit-scrollbar {
     width: 4px;

@@ -7,12 +7,16 @@ export const ProductCardContainer = styled.div`
   height: 350px;
   align-items: center;
   position: relative;
+  background-color: grey;
+  border-radius: 5px;
+  gap: 10px;
+  
 
   img {
     width: 100%;
-    height: 95%;
+    height: 90%;
     object-fit: cover;
-    margin-bottom: 5px;
+    border-radius: 5px;
   }
 
   button {
@@ -41,6 +45,7 @@ export const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   font-size: 18px;
+  padding: 3px;
 `;
 
 export const Name = styled.span`
