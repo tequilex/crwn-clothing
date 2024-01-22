@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Loading from "../loading/loading.component";
 
 import {
   signInAuthUserWithEmailAndPassword,
@@ -83,6 +84,7 @@ const SignInForm = () => {
           </Button>
         </ButtonsContainer>
       </form>
+      <Loading />
     </SignInContainer>
   );
 };
