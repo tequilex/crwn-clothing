@@ -5,18 +5,15 @@ export const LoadingContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid blue;
 `
 
 export const Spinner = styled.span`
   width: 70px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid black;
 
-
-  width: 48px;
-  height: 48px;
+  width: 60px;
+  height: 60px;
   border-radius: 50%;
   position: relative;
   animation: rotate 1s linear infinite;
